@@ -8,13 +8,12 @@ A Flask app for conducting reverse image search using Google's API.
 1. In a second terminal, start running [ngrok](https://ngrok.com/) (`ngrok http 8080`) or your 
 html-interface-exposing tool of choice. Alternately, run the program as a dedicated web app on a specific web server.
 1. Go to [0.0.0.0:8080](http://0.0.0.0:8080) - or your publicly exposed http endpoint- in your browser of 
-choice. (It should be a *recent* browser, given [Flask-SocketIO's](https://flask-socketio.readthedocs.org/en/latest/) constraints.)
+choice.
 1. Use the file browser to upload an image.
 1. Browse the gallery of results
 
 
 ### General Notes on querying Google Reverse Image Search (as of December, 2015)
-
 
 1. There are two ways to access image search:
   1. Send a link to a hosted version at the end of the query: `http://images.google
