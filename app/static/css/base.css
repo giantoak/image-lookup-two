@@ -1,0 +1,9 @@
+body {
+    font-family: 'Times New Roman', serif;
+    height: 100%;
+}
+
+#content div {
+    margin-left: 50px;
+    min-height: 100%;
+}

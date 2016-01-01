@@ -1,0 +1,16 @@
+<!doctype html>
+{% extends "base.html" %}
+
+{% block head %}
+<title>Bulk Reverse Image Search -- Giant Oak</title>
+<link rel='stylesheet' href="{{ url_for('static', filename='css/index.css') }}" >
+{% endblock %}
+
+{% block content %}
+<div class='intro-title'>Bulk reverse image search demo</div>
+<div class='intro-text'>Upload files for reverse image search. Hold down shift or ctrl while selecting to upload multiple files.</div>
+<form method="POST" enctype="multipart/form-data" action="/upload">
+    <input type="file" name="file[]" multiple="">
+    <input type="submit" value="Search">
+</form>
+{% endblock %}
