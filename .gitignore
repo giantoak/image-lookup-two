@@ -7,3 +7,4 @@ app/uploads
 .idea/
 *~
 .DS_Store
+uploads/
