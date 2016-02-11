@@ -1,7 +1,7 @@
 import os
 import logging
 from flask import Flask
-from ImgSearch.imgsearch import ImgSearch
+# from ImgSearch.imgsearch import ImgSearch
 
 app = Flask(__name__)
 app.config.from_object('config')
